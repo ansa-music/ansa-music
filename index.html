@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ANSA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #0b0b0f, #111827);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 420px;
+      margin: auto;
+      padding-top: 30px;
+    }
+    .cover {
+      width: 100%;
+      border-radius: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      margin-bottom: 20px;
+    }
+    .song-card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 20px;
+      padding: 20px;
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      margin-bottom: 6px;
+      font-size: 32px;
+    }
+    p {
+      opacity: 0.7;
+      margin-top: 0;
+    }
+    audio {
+      width: 100%;
+      margin-top: 15px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 12px 20px;
+      border-radius: 14px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ANSA</h1>
+    <p>03:17 diary • музыка воспоминаний</p>
+
+    <img src="cover.jpg" alt="ANSA cover" class="cover">
+
+    <div class="song-card">
+      <h2>Өз жолым</h2>
+      <audio controls>
+        <source src="song.mp3" type="audio/mpeg">
+      </audio>
+      <a href="#" class="btn">Поддержать ANSA</a>
+    </div>
+  </div>
+</body>
+</html>
